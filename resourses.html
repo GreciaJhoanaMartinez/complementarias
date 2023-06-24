@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        function color() {
+            document.getElementById("Mejores Amigos").style.backgroundColor="pink";
+            document.getElementById(" Mejores Amigos").style.color="blue";
+            document.getElementById("Mejores Amigos").style.fontSize="50px";
+        }
+    </script>
+
+    <script>
+         function cambiarImg(imagen) {
+            document.getElementById(img1).src="img/tony.jpg";
+            document.getElementById(img2).src="img/andrea.jpg";
+            document.getElementById(img3).src="img/yo.jpg";
+        
+         }
+    </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-top">
+              
+       
+        <header class="container-fluid">
+          
+            <!--Logo con link a la pagina principal-->
+            <a class="navbar-brand"> 
+               
+                <img class="logo" src="img/mariposas.jpg" width="150px" height="10px"/>
+                <!--Menu de navegacion-->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav"> <!--Contenedor de la lista, li es para poner un punto antes -->
+                    <li  class="nav-item">
+                        <a class="nav-link" href="index.html">Platform</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="flores.html"></a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="resourses.html">Resources</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="Menu Hamburguesa-hmtl">Resources</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!--Contenedor de acciones de usuario-->
+            <div class="actions">
+                <a>Sign In</a>
+                <button class="btn btn-dark">Start Free Trial</button>
+             </div>
+         </header>
+        </nav>
+        <br>
+        <br>
+       <br>
+        <div>
+            <p id="Amigues"> Este es otro texto</p>
+            <button type="button" onclick="color()">Click aquí</button>
+            <br>
+            <br>
+            <button onclick="alert('Ha sido hackeado')">NO HAGAS CLICK</button>
+        </div>
+        <br>
+        <br>
+        <div class="imagen2" id="imagen">
+            <img class="imagen15" id="img1" src="img/andrea.jpg" alt="" width="400" height="400" onmouseover="this.src='img/Vanesa2.jpg'" onmouseout="this.src='img/Vanesa.jpg';" >
+            <img class="imagen15" id="img2" src="img/tony.jpg" alt="" width="400" height="400" onmouseover="this.src='img/Diego2.jpg'" onmouseout="this.src='img/Diego.jpg';">
+            <img class="imagen15"id="img3" src="img/yo.jpg" alt="" width="400" height="400" onmouseover="this.src='img/Yess2.jpg'" onmouseout="this.src='img/Yess.jpg';">
+
+        </div>
+
+    </body>
+</html>
